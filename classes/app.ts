@@ -21,9 +21,12 @@ class Person {
     
 }
 
+class Tausif  extends Person{
 
-//instance creation
 
-let tausif = new Person("Tausif","tausif");
-console.log(tausif);
-console.log(tausif.name);
+    constructor(username : string){
+        super("Tausif",username);
+        this.age = 24;
+    }
+
+}
